@@ -1,0 +1,8 @@
+Aislinn comes within conversation range of NPC
+B Button prompt is displayed
+B Button Press in this context:
+	1. Disables character movement
+	2. Displays a pop-up (NPC face, Text)
+	3. Plays a dialogue file.
+Pressing B at the end of each line of dialogue plays the next line.
+At the end of the conversation character movement is re-enabled

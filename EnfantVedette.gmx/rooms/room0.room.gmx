@@ -3,8 +3,8 @@
   <caption></caption>
   <width>7680</width>
   <height>1080</height>
-  <vsnap>117</vsnap>
-  <hsnap>117</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -97,7 +97,8 @@
     <instance objName="obj_wall" x="2223" y="1053" name="inst_B8CA6EB5" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2340" y="1053" name="inst_995BC6AB" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2457" y="1053" name="inst_2CC0B165" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="NPC" x="1755" y="936" name="inst_32C80910" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ronan" x="1755" y="947" name="inst_32C80910" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_UI_BButton" x="1738" y="853" name="inst_E6A93448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

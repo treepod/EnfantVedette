@@ -31,6 +31,7 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 5;
+global.chatEnabled = false;
 </string>
           </argument>
         </arguments>
@@ -91,6 +92,35 @@ if(place_meeting(x,y+vsp,obj_wall))
     vsp=0;
 }
 y += vsp;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Ready to chat
+if (obj_player.x &gt;= obj_Ronan.x - 148) //Player is within the left bounds of conversation range
+and (obj_player.x &lt;= obj_Ronan.x + 74) //Player is within the right bounds of conversation range
+and (obj_player.y = obj_Ronan.y) //Player is standing on the same level as the NPC
+{
+    global.chatEnabled = true
+}else{
+    global.chatEnabled = false
+}
 </string>
           </argument>
         </arguments>

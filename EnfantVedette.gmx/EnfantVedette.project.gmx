@@ -10,6 +10,9 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_UI_BButton</sprite>
     <sprite>sprites\spr_Ronan</sprite>
+    <sprite>sprites\spr_Kayden</sprite>
+    <sprite>sprites\spr_rainbow</sprite>
+    <sprite>sprites\spr_cloud</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,6 +21,8 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_Ronan</object>
     <object>objects\obj_UI_BButton</object>
+    <object>objects\obj_rainbow</object>
+    <object>objects\obj_cloud</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

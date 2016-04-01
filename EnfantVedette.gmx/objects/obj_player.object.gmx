@@ -70,10 +70,25 @@ if (place_meeting(x,y+1,obj_wall))
     vsp = key_jump * -jumpspeed
 }
 
-//Horizontal Collision
+if (place_meeting(x,y+1,obj_cloud))
+{
+    vsp = key_jump * -jumpspeed
+}
+
+//Horizontal Collision Cloud
+if(place_meeting(x+hsp,y,obj_cloud))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_cloud))
+    {
+        x += sign(hsp);
+    }
+    hsp=0;
+}
+
+//Horizontal Collision Wall
 if(place_meeting(x+hsp,y,obj_wall))
 {
-    while(!place_meeting(x+sign(hsp), y,obj_wall))
+    while(!place_meeting(x+sign(hsp),y,obj_wall))
     {
         x += sign(hsp);
     }
@@ -82,7 +97,7 @@ if(place_meeting(x+hsp,y,obj_wall))
 
 x += hsp;
 
-//Vertical Collision
+//Vertical Collision Wall
 if(place_meeting(x,y+vsp,obj_wall))
 {
     while(!place_meeting(x,y+sign(vsp),obj_wall))
@@ -91,6 +106,17 @@ if(place_meeting(x,y+vsp,obj_wall))
     }
     vsp=0;
 }
+
+//Vertical Collision Cloud
+if(place_meeting(x,y+vsp,obj_cloud))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_cloud))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
 y += vsp;
 </string>
           </argument>
@@ -115,7 +141,6 @@ y += vsp;
             <string>///Ready to chat
 if (obj_player.x &gt;= obj_Ronan.x - 148) //Player is within the left bounds of conversation range
 and (obj_player.x &lt;= obj_Ronan.x + 74) //Player is within the right bounds of conversation range
-and (obj_player.y = obj_Ronan.y) //Player is standing on the same level as the NPC
 {
     global.chatEnabled = true
 }else{

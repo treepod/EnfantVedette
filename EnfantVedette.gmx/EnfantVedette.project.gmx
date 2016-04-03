@@ -13,6 +13,7 @@
     <sprite>sprites\spr_Kayden</sprite>
     <sprite>sprites\spr_rainbow</sprite>
     <sprite>sprites\spr_cloud</sprite>
+    <sprite>sprites\spr_blueFlower</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +24,7 @@
     <object>objects\obj_UI_BButton</object>
     <object>objects\obj_rainbow</object>
     <object>objects\obj_cloud</object>
+    <object>objects\obj_blueFlower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

@@ -11,9 +11,15 @@
     <sprite>sprites\spr_UI_BButton</sprite>
     <sprite>sprites\spr_Ronan</sprite>
     <sprite>sprites\spr_Kayden</sprite>
-    <sprite>sprites\spr_rainbow</sprite>
     <sprite>sprites\spr_cloud</sprite>
-    <sprite>sprites\spr_blueFlower</sprite>
+    <sprite>sprites\spr_rainbow</sprite>
+    <sprites name="Scenery">
+      <sprite>sprites\spr_blueFlower</sprite>
+      <sprite>sprites\spr_Sun</sprite>
+      <sprite>sprites\redFlower</sprite>
+      <sprite>sprites\spr_darkBlueFlower</sprite>
+      <sprite>sprites\spr_yellowFlower</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

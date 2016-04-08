@@ -139,8 +139,10 @@ y += vsp;
           <argument>
             <kind>1</kind>
             <string>///Ready to chat
-if (obj_player.x &gt;= obj_Ronan.x - 148) //Player is within the left bounds of conversation range
-and (obj_player.x &lt;= obj_Ronan.x + 74) //Player is within the right bounds of conversation range
+if (obj_player.x &gt;= obj_UI_BButton.x - 150) //Player is within the left bounds of conversation range
+and (obj_player.x &lt;= obj_UI_BButton.x + 75) //Player is within the right bounds of conversation range
+and (obj_player.y &gt;= obj_UI_BButton.y - 50) //Player is within the upper bounds of conversation range
+and (obj_player.y &lt;= obj_UI_BButton.y + 150) //Player is within the lower bounds of conversation range
 {
     global.chatEnabled = true
 }else{

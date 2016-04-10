@@ -135,7 +135,6 @@
     <instance objName="obj_cloud" x="498" y="398" name="inst_AE571AEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1780" y="436" name="inst_0C37CFEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1570" y="297" name="inst_F1EE88B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Follow" x="334" y="947" name="inst_B7B20060" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

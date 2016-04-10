@@ -27,6 +27,7 @@
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_Ronan</object>
+    <object>objects\obj_Follow</object>
     <object>objects\obj_UI_BButton</object>
     <object>objects\obj_rainbow</object>
     <object>objects\obj_cloud</object>

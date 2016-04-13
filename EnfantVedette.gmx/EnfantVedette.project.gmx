@@ -39,13 +39,9 @@
     <object>objects\obj_rainbow</object>
     <object>objects\obj_cloud</object>
     <object>objects\obj_blueFlower</object>
-<<<<<<< HEAD
-    <object>objects\obj_init</object>
-=======
     <object>objects\obj_trunk1</object>
     <object>objects\obj_middleOfBridge</object>
     <object>objects\obj_sidesOfBridge</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

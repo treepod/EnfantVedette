@@ -25,10 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if obj_player.x &lt; 2400 and !audio_is_playing(snd_sunnyMeadow)
+            <string>//Play sunnyMeadow
+if obj_player.x &lt; 2400 and !audio_is_playing(snd_sunnyMeadow)
 {
     audio_play_sound(snd_sunnyMeadow,0,true);
 }
+//Fade out sunnyMeadow
+if obj_player.x &gt; 2400 and audio_is_playing(snd_sunnyMeadow)
+{
+    audio_sound_gain(snd_sunnyMeadow, 0, 300);
+}
+//Fade in sunnyMeadow
+if obj_player.x &lt; 2400 and audio_sound_get_gain(snd_sunnyMeadow) &lt; 1
+{
+    audio_sound_gain(snd_sunnyMeadow, 1, 300);
+}
+
 </string>
           </argument>
         </arguments>

@@ -147,6 +147,7 @@
     <instance objName="obj_trunk1" x="4826" y="549" name="inst_0F690B18" locked="0" code="" scaleX="-0.790000021457672" scaleY="1.00092673301697" colour="4294967295" rotation="0"/>
     <instance objName="obj_sidesOfBridge" x="5457" y="894" name="inst_E31F0004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_middleOfBridge" x="5447" y="893" name="inst_4ABAF409" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Music" x="1461" y="-118" name="inst_CC43E1DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

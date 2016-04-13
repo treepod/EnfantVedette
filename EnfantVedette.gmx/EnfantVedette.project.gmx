@@ -19,6 +19,9 @@
       <sprite>sprites\redFlower</sprite>
       <sprite>sprites\spr_darkBlueFlower</sprite>
       <sprite>sprites\spr_yellowFlower</sprite>
+      <sprite>sprites\spr_trunk1</sprite>
+      <sprite>sprites\spr_middleOfBridge</sprite>
+      <sprite>sprites\spr_sidesOfBridge</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -32,6 +35,9 @@
     <object>objects\obj_rainbow</object>
     <object>objects\obj_cloud</object>
     <object>objects\obj_blueFlower</object>
+    <object>objects\obj_trunk1</object>
+    <object>objects\obj_middleOfBridge</object>
+    <object>objects\obj_sidesOfBridge</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

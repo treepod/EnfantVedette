@@ -42,6 +42,7 @@
     <object>objects\obj_trunk1</object>
     <object>objects\obj_middleOfBridge</object>
     <object>objects\obj_sidesOfBridge</object>
+    <object>objects\obj_Music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

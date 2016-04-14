@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Play sunnyMeadow
+            <string>///Music scripting
+
+//////////////////Sunny Meadow/////////////////////////
+//Play sunnyMeadow
 if obj_player.x &lt; 2400 and !audio_is_playing(snd_sunnyMeadow)
 {
     audio_play_sound(snd_sunnyMeadow,0,true);
@@ -41,6 +44,28 @@ if obj_player.x &lt; 2400 and audio_sound_get_gain(snd_sunnyMeadow) &lt; 1
     audio_sound_gain(snd_sunnyMeadow, 1, 300);
 }
 
+///////////////////Forest//////////////////////////
+
+//Play forest
+if obj_player.x &gt; 2500 and !audio_is_playing(snd_forest)
+{
+    audio_play_sound(snd_forest,0,true);
+}
+//Fade out forest --&gt; sunnyMeadow
+if obj_player.x &lt; 2500 and audio_is_playing(snd_forest)
+{
+    audio_sound_gain(snd_forest, 0, 300);
+}
+//Fade out forest --&gt; celebration
+if obj_player.x &gt; 5500 and audio_is_playing(snd_forest)
+{
+    audio_sound_gain(snd_forest, 0, 300);
+}
+//Fade in sunnyMeadow --&gt; forest
+if obj_player.x &gt; 2500 and obj_player.x &lt; 5500 and audio_sound_get_gain(snd_forest) &lt; 1
+{
+    audio_sound_gain(snd_forest, 1, 300);
+}
 </string>
           </argument>
         </arguments>

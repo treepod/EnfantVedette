@@ -95,6 +95,26 @@ if(place_meeting(x+hsp,y,obj_wall))
     hsp=0;
 }
 
+//Horizontal Collision middleOfBridge
+if(place_meeting(x+hsp,y,obj_middleOfBridge))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_middleOfBridge))
+    {
+        x += sign(hsp);
+    }
+    hsp=0;
+}
+
+//Horizontal Collision sidesOfBridge
+if(place_meeting(x+hsp,y,obj_sidesOfBridge))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_sidesOfBridge))
+    {
+        x += sign(hsp);
+    }
+    hsp=0;
+}
+
 x += hsp;
 
 //Vertical Collision Wall
@@ -111,6 +131,26 @@ if(place_meeting(x,y+vsp,obj_wall))
 if(place_meeting(x,y+vsp,obj_cloud))
 {
     while(!place_meeting(x,y+sign(vsp),obj_cloud))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
+//Vertical Collision middleOfBridge
+if(place_meeting(x,y+vsp,obj_middleOfBridge))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_middleOfBridge))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
+//Vertical Collision sidesOfBridge
+if(place_meeting(x,y+vsp,obj_sidesOfBridge))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_sidesOfBridge))
     {
         y += sign(vsp);
     }

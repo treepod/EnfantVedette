@@ -56,9 +56,9 @@ global.chatEnabled = false;
             <kind>1</kind>
             <string>///Player control
 //Get player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
+key_right = gamepad_button_check(0, gp_padr);
+key_left = -gamepad_button_check(0, gp_padl);
+key_jump = gamepad_button_check(0, gp_face1);
 
 //React to inputs
 move = key_left + key_right;

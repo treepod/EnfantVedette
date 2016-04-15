@@ -41,6 +41,33 @@ and (obj_player.y &lt;= self.y + 150) //Player is within the lower bounds of con
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Trigger Chat
+if (self.visible = true) and gamepad_button_check(0,gp_face2)
+{
+    global.movementEnabled = false
+    obj_RonanChat.visible = true
+    instance_destroy()
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>

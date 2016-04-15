@@ -105,16 +105,6 @@ if(place_meeting(x+hsp,y,obj_middleOfBridge))
     hsp=0;
 }
 
-//Horizontal Collision sidesOfBridge
-if(place_meeting(x+hsp,y,obj_sidesOfBridge))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_sidesOfBridge))
-    {
-        x += sign(hsp);
-    }
-    hsp=0;
-}
-
 x += hsp;
 
 //Vertical Collision Wall

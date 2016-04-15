@@ -50,6 +50,7 @@ y=300;
           <argument>
             <kind>1</kind>
             <string>x = (view_xview[0] + 700) - 0.1 * view_xview[0]
+y = (view_yview[0] + 100) - 0.1 * view_yview[0]
 </string>
           </argument>
         </arguments>

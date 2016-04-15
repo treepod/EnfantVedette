@@ -55,6 +55,14 @@ global.chatEnabled = false;
           <argument>
             <kind>1</kind>
             <string>///Player control
+if global.movementEnabled = true
+{
+    movespeed = 5
+}else
+{
+    movespeed = 0
+}
+
 //Get player's input
 key_right = gamepad_button_check(0, gp_padr);
 key_left = -gamepad_button_check(0, gp_padl);

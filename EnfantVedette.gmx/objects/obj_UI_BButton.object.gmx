@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.chatEnabled = true)
+            <string>///Ready to chat
+if (obj_player.x &gt;= self.x - 150) //Player is within the left bounds of conversation range
+and (obj_player.x &lt;= self.x + 75) //Player is within the right bounds of conversation range
+and (obj_player.y &gt;= self.y - 50) //Player is within the upper bounds of conversation range
+and (obj_player.y &lt;= self.y + 150) //Player is within the lower bounds of conversation range
+
 {
     self.visible = true
 }else

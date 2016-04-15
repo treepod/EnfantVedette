@@ -162,36 +162,6 @@ y += vsp;
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Ready to chat
-if (obj_player.x &gt;= obj_UI_BButton.x - 150) //Player is within the left bounds of conversation range
-and (obj_player.x &lt;= obj_UI_BButton.x + 75) //Player is within the right bounds of conversation range
-and (obj_player.y &gt;= obj_UI_BButton.y - 50) //Player is within the upper bounds of conversation range
-and (obj_player.y &lt;= obj_UI_BButton.y + 150) //Player is within the lower bounds of conversation range
-{
-    global.chatEnabled = true
-}else{
-    global.chatEnabled = false
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>

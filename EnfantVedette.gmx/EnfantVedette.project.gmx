@@ -27,6 +27,7 @@
       <sprite>sprites\spr_middleOfBridge</sprite>
       <sprite>sprites\spr_sidesOfBridge</sprite>
     </sprites>
+    <sprite>sprites\spr_RonanChat</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -43,6 +44,7 @@
     <object>objects\obj_middleOfBridge</object>
     <object>objects\obj_sidesOfBridge</object>
     <object>objects\obj_Music</object>
+    <object>objects\obj_RonanChat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

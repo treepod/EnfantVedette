@@ -166,6 +166,7 @@
     <instance objName="obj_wall" x="7020" y="1053" name="inst_C6B5841F" locked="0" code="image_speed = 0;&#xA;image_index = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="7137" y="1053" name="inst_0F2839FB" locked="0" code="image_speed = 0;&#xA;image_index = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="7722" y="1053" name="inst_108417E6" locked="0" code="image_speed = 0;&#xA;image_index = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_RonanChat" x="1260" y="775" name="inst_37A03186" locked="0" code="self.visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -53,6 +53,7 @@
     <object>objects\obj_bush1</object>
     <object>objects\obj_bush2</object>
     <object>objects\obj_bush3</object>
+    <object>objects\obj_Sun</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

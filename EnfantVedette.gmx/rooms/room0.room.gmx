@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="140" y="950" name="inst_621786A6" locked="0" code="depth = -1000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="2518" y="634" name="inst_621786A6" locked="0" code="depth = -50;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="49" y="1056" name="inst_9369AB11" locked="0" code="image_speed = 0;&#xA;image_index = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2623" y="1056" name="inst_A9B80E99" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2740" y="1056" name="inst_E23DA93E" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -108,7 +108,7 @@
     <instance objName="obj_cloud" x="1638" y="819" name="inst_34A2F4BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1404" y="702" name="inst_241327AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1638" y="585" name="inst_A7B86500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cloud" x="1872" y="936" name="inst_E4B550F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="1834" y="937" name="inst_E4B550F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="819" y="819" name="inst_15D8A4C0" locked="0" code="image_speed = 0;&#xA;image_index = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blueFlower" x="291" y="978" name="inst_1B5C993F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blueFlower" x="391" y="982" name="inst_2D958B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -142,10 +142,9 @@
     <instance objName="obj_trunk1" x="3784" y="549" name="inst_0C7E094E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trunk1" x="3935" y="666" name="inst_EC6416F4" locked="0" code="" scaleX="0.675909876823425" scaleY="0.644114911556244" colour="4294967295" rotation="0"/>
     <instance objName="obj_trunk1" x="4168" y="466" name="inst_0E754630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4421" y="428" name="inst_B26F9ED7" locked="0" code="" scaleX="1.02999997138977" scaleY="1.28999996185303" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4422" y="397" name="inst_B26F9ED7" locked="0" code="" scaleX="1.02999997138977" scaleY="1.28999996185303" colour="4294967295" rotation="0"/>
     <instance objName="obj_trunk1" x="4616" y="595" name="inst_CAFBAB3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4826" y="549" name="inst_0F690B18" locked="0" code="" scaleX="-0.790000021457672" scaleY="1.00092673301697" colour="4294967295" rotation="0"/>
-    <instance objName="obj_middleOfBridge" x="5455" y="1034" name="inst_4ABAF409" locked="0" code="" scaleX="1.38999998569489" scaleY="0.948837220668793" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4824" y="557" name="inst_0F690B18" locked="0" code="" scaleX="-0.790000021457672" scaleY="1.00092673301697" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="1461" y="-118" name="inst_CC43E1DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Kayden" x="4907" y="951" name="inst_BFDB7A95" locked="0" code="depth = -11;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="5080" y="1056" name="inst_D3E5DE92" locked="0" code="image_speed = 0;&#xA;image_index = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -224,6 +223,10 @@
     <instance objName="obj_bush3" x="4698" y="451" name="inst_0FACEBAE" locked="0" code="depth = -100&#xA;" scaleX="-3.64000010490417" scaleY="3.25675678253174" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="6012" y="4339" name="inst_E977B883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sun" x="254" y="226" name="inst_1C9C82F7" locked="0" code="depth=10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_brokenBridge" x="5459" y="1021" name="inst_577CEE21" locked="0" code="depth = -100&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bridgePiece" x="3961" y="941" name="inst_94415F2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_KaydenChatButton" x="4902" y="867" name="inst_9448AF9B" locked="0" code="depth = -100;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_KaydenChat" x="4895" y="793" name="inst_BC2FF33F" locked="0" code="visible = false;&#xA;depth = -1000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

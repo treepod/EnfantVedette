@@ -31,29 +31,46 @@
       <sprite>sprites\spr_bush3</sprite>
     </sprites>
     <sprite>sprites\spr_RonanChat</sprite>
+    <sprite>sprites\spr_brokenBridge</sprite>
+    <sprite>sprites\spr_bridgePiece</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_Ronan</object>
-    <object>objects\obj_Kayden</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_UI_BButton</object>
-    <object>objects\obj_rainbow</object>
-    <object>objects\obj_cloud</object>
-    <object>objects\obj_blueFlower</object>
-    <object>objects\obj_redFlower</object>
-    <object>objects\obj_trunk1</object>
-    <object>objects\obj_middleOfBridge</object>
-    <object>objects\obj_sidesOfBridge</object>
-    <object>objects\obj_Music</object>
-    <object>objects\obj_RonanChat</object>
-    <object>objects\obj_darkBlueFlower</object>
-    <object>objects\obj_bush1</object>
-    <object>objects\obj_bush2</object>
-    <object>objects\obj_bush3</object>
-    <object>objects\obj_Sun</object>
+    <objects name="Characters">
+      <object>objects\obj_player</object>
+      <object>objects\obj_Kayden</object>
+      <object>objects\obj_Ronan</object>
+    </objects>
+    <objects name="Bridge">
+      <object>objects\obj_middleOfBridge</object>
+      <object>objects\obj_brokenBridge</object>
+      <object>objects\obj_bridgePiece</object>
+    </objects>
+    <objects name="Scenery">
+      <object>objects\obj_trunk1</object>
+      <object>objects\obj_blueFlower</object>
+      <object>objects\obj_bush2</object>
+      <object>objects\obj_bush3</object>
+      <object>objects\obj_bush1</object>
+      <object>objects\obj_Sun</object>
+      <object>objects\obj_darkBlueFlower</object>
+      <object>objects\obj_Music</object>
+      <object>objects\obj_rainbow</object>
+      <object>objects\obj_cloud</object>
+      <object>objects\obj_redFlower</object>
+      <object>objects\obj_wall</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\obj_UI_BButton</object>
+      <objects name="RonanChat">
+        <object>objects\obj_RonanChat</object>
+      </objects>
+      <objects name="KaydenChat">
+        <object>objects\obj_KaydenChatButton</object>
+        <object>objects\obj_KaydenChat</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

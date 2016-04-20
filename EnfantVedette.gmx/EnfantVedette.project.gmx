@@ -5,9 +5,26 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_sunnyMeadow</sound>
-    <sound>sound\snd_celebration</sound>
-    <sound>sound\snd_forest</sound>
+    <sounds name="Music">
+      <sound>sound\snd_sunnyMeadow</sound>
+      <sound>sound\snd_forest</sound>
+      <sound>sound\snd_celebration</sound>
+    </sounds>
+    <sounds name="Dialogue">
+      <sounds name="OpeningDialogue">
+        <sound>sound\snd_openingDialogue1</sound>
+        <sound>sound\snd_openingDialogue2</sound>
+        <sound>sound\snd_openingDialogue3</sound>
+        <sound>sound\snd_openingDialogue4</sound>
+        <sound>sound\snd_openingDialogue5</sound>
+        <sound>sound\snd_openingDialogue6</sound>
+        <sound>sound\snd_openingDialogue7</sound>
+        <sound>sound\snd_openingDialogue8</sound>
+        <sound>sound\snd_openingDialogue9</sound>
+        <sound>sound\snd_openingDialogue10</sound>
+        <sound>sound\snd_openingDialogue11</sound>
+      </sounds>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -30,6 +47,19 @@
       <sprite>sprites\spr_bush2</sprite>
       <sprite>sprites\spr_bush3</sprite>
     </sprites>
+    <sprites name="openingDialogue">
+      <sprite>sprites\spr_openingDialogue1</sprite>
+      <sprite>sprites\spr_openingDialogue2</sprite>
+      <sprite>sprites\spr_openingDialogue3</sprite>
+      <sprite>sprites\spr_openingDialogue4</sprite>
+      <sprite>sprites\spr_openingDialogue5</sprite>
+      <sprite>sprites\spr_openingDialogue6</sprite>
+      <sprite>sprites\spr_openingDialogue7</sprite>
+      <sprite>sprites\spr_openingDialogue8</sprite>
+      <sprite>sprites\spr_openingDialogue9</sprite>
+      <sprite>sprites\spr_openingDialogue10</sprite>
+      <sprite>sprites\spr_openingDialogue11</sprite>
+    </sprites>
     <sprites name="meetRonan">
       <sprite>sprites\spr_meetRonanDialogue1</sprite>
       <sprite>sprites\spr_meetRonanDialogue2</sprite>
@@ -46,6 +76,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_Music</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
       <object>objects\obj_Kayden</object>
@@ -64,14 +95,26 @@
       <object>objects\obj_bush1</object>
       <object>objects\obj_Sun</object>
       <object>objects\obj_darkBlueFlower</object>
-      <object>objects\obj_Music</object>
       <object>objects\obj_rainbow</object>
       <object>objects\obj_cloud</object>
       <object>objects\obj_redFlower</object>
       <object>objects\obj_wall</object>
     </objects>
     <objects name="UI">
-      <objects name="RonanChat">
+      <objects name="Opening">
+        <object>objects\obj_openingDialogue1</object>
+        <object>objects\obj_openingDialogue2</object>
+        <object>objects\obj_openingDialogue3</object>
+        <object>objects\obj_openingDialogue4</object>
+        <object>objects\obj_openingDialogue5</object>
+        <object>objects\obj_openingDialogue6</object>
+        <object>objects\obj_openingDialogue7</object>
+        <object>objects\obj_openingDialogue8</object>
+        <object>objects\obj_openingDialogue9</object>
+        <object>objects\obj_openingDialogue10</object>
+        <object>objects\obj_openingDialogue11</object>
+      </objects>
+      <objects name="meetingRonan">
         <object>objects\obj_UI_BButton</object>
         <object>objects\obj_meetRonanDialogue1</object>
         <object>objects\obj_meetRonanDialogue2</object>

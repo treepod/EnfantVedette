@@ -49,15 +49,12 @@ gotTheBridge = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Quest For Bridge!!!
-if questForBridge == true
+            <string>///Got The Bridge!!!
+if gotTheBridge == true
 {
-    if (obj_player.x &gt;= x - 150)
-    and (obj_player.x &lt;= x + 75)
-    {
-        gotTheBridge = true;
-        questForBridge = false;
-    }
+    obj_bridgePiece.x = obj_player.x;
+    obj_bridgePiece.y = obj_player.y - 117;
+    depth = -1000;
 }
 </string>
           </argument>
@@ -79,11 +76,15 @@ if questForBridge == true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Got The Bridge!!!
-if gotTheBridge == true
+            <string>///Quest For Bridge!!!
+if global.questForBridge == true
 {
-    obj_bridgePiece.x = obj_player.x;
-    obj_bridgePiece.y = obj_player.y + 117;
+    if (obj_player.x &gt;= x - 150)
+    and (obj_player.x &lt;= x + 75)
+    {
+        gotTheBridge = true;
+        global.questForBridge = false;
+    }
 }
 </string>
           </argument>

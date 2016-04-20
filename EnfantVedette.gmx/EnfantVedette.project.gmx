@@ -127,7 +127,7 @@
       </objects>
       <objects name="KaydenChat">
         <object>objects\obj_KaydenChatButton</object>
-        <object>objects\obj_KaydenChat</object>
+        <object>objects\obj_forestIntroDialogue14</object>
       </objects>
     </objects>
   </objects>

@@ -60,7 +60,7 @@ and (obj_player.y &lt;= y + 150) //Player is within the lower bounds of conversa
 if (self.visible = true) and gamepad_button_check(0,gp_face2)
 {
     global.movementEnabled = false
-    obj_KaydenChat.visible = true
+    obj_forestIntroDialogue14.visible = true
     instance_destroy()
 }
 </string>

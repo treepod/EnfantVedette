@@ -225,8 +225,6 @@
     <instance objName="obj_Sun" x="254" y="226" name="inst_1C9C82F7" locked="0" code="depth=10" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brokenBridge" x="5459" y="1021" name="inst_577CEE21" locked="0" code="depth = -100&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bridgePiece" x="3961" y="941" name="inst_94415F2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_KaydenChatButton" x="4902" y="867" name="inst_9448AF9B" locked="0" code="depth = -100;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_forestIntroDialogue14" x="4895" y="793" name="inst_BC2FF33F" locked="0" code="visible = false;&#xA;depth = -1000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_meetRonanDialogue2" x="-86" y="-458" name="inst_E86FE1C5" locked="0" code="visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_meetRonanDialogue3" x="-148" y="-377" name="inst_E0ED8887" locked="0" code="visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_meetRonanDialogue4" x="1025" y="-501" name="inst_B8493F2C" locked="0" code="visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -247,6 +245,9 @@
     <instance objName="obj_openingDialogue11" x="1251" y="-1048" name="inst_23E29073" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-67" y="1050" name="inst_4267C24B" locked="0" code="image_speed = 0;&#xA;image_index = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-185" y="1050" name="inst_16CB0FFF" locked="0" code="image_speed = 0;&#xA;image_index = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_forestIntroDialogue1" x="-753" y="582" name="inst_D1F9C267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_forestIntroDialogue3" x="-743" y="946" name="inst_61F1DAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_forestIntroDialogue7" x="-747" y="766" name="inst_9C0EA299" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

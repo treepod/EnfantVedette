@@ -34,6 +34,23 @@
         <sound>sound\snd_meetRonanDialogue7</sound>
         <sound>sound\snd_meetRonanDialogue8</sound>
       </sounds>
+      <sounds name="forestIntro">
+        <sound>sound\snd_forestIntroDialogue1</sound>
+        <sound>sound\snd_forestIntroDialogue2</sound>
+        <sound>sound\snd_forestIntroDialogue3</sound>
+        <sound>sound\snd_forestIntroDialogue4</sound>
+        <sound>sound\snd_forestIntroDialogue5</sound>
+        <sound>sound\snd_forestIntroDialogue6</sound>
+        <sound>sound\snd_forestIntroDialogue7</sound>
+        <sound>sound\snd_forestIntroDialogue8</sound>
+        <sound>sound\snd_forestIntroDialogue9</sound>
+        <sound>sound\snd_forestIntroDialogue10</sound>
+        <sound>sound\snd_forestIntroDialogue11</sound>
+        <sound>sound\snd_forestIntroDialogue12</sound>
+        <sound>sound\snd_forestIntroDialogue13</sound>
+        <sound>sound\snd_forestIntroDialogue14</sound>
+        <sound>sound\snd_forestIntroDialogue15</sound>
+      </sounds>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -79,6 +96,23 @@
       <sprite>sprites\spr_meetRonanDialogue6</sprite>
       <sprite>sprites\spr_meetRonanDialogue7</sprite>
       <sprite>sprites\spr_meetRonanDialogue8</sprite>
+    </sprites>
+    <sprites name="forestIntro">
+      <sprite>sprites\spr_forestIntroDialogue1</sprite>
+      <sprite>sprites\spr_forestIntroDialogue2</sprite>
+      <sprite>sprites\spr_forestIntroDialogue3</sprite>
+      <sprite>sprites\spr_forestIntroDialogue4</sprite>
+      <sprite>sprites\spr_forestIntroDialogue5</sprite>
+      <sprite>sprites\spr_forestIntroDialogue6</sprite>
+      <sprite>sprites\spr_forestIntroDialogue7</sprite>
+      <sprite>sprites\spr_forestIntroDialogue8</sprite>
+      <sprite>sprites\spr_forestIntroDialogue9</sprite>
+      <sprite>sprites\spr_forestIntroDialogue10</sprite>
+      <sprite>sprites\spr_forestIntroDialogue11</sprite>
+      <sprite>sprites\spr_forestIntroDialogue12</sprite>
+      <sprite>sprites\spr_forestIntroDialogue13</sprite>
+      <sprite>sprites\spr_forestIntroDialogue14</sprite>
+      <sprite>sprites\spr_forestIntroDialogue15</sprite>
     </sprites>
     <sprite>sprites\spr_brokenBridge</sprite>
     <sprite>sprites\spr_bridgePiece</sprite>
@@ -135,9 +169,22 @@
         <object>objects\obj_meetRonanDialogue7</object>
         <object>objects\obj_meetRonanDialogue8</object>
       </objects>
-      <objects name="KaydenChat">
-        <object>objects\obj_KaydenChatButton</object>
+      <objects name="forestIntro">
+        <object>objects\obj_forestIntroDialogue1</object>
+        <object>objects\obj_forestIntroDialogue2</object>
+        <object>objects\obj_forestIntroDialogue3</object>
+        <object>objects\obj_forestIntroDialogue4</object>
+        <object>objects\obj_forestIntroDialogue5</object>
+        <object>objects\obj_forestIntroDialogue6</object>
+        <object>objects\obj_forestIntroDialogue7</object>
+        <object>objects\obj_forestIntroDialogue8</object>
+        <object>objects\obj_forestIntroDialogue9</object>
+        <object>objects\obj_forestIntroDialogue10</object>
+        <object>objects\obj_forestIntroDialogue11</object>
+        <object>objects\obj_forestIntroDialogue12</object>
+        <object>objects\obj_forestIntroDialogue13</object>
         <object>objects\obj_forestIntroDialogue14</object>
+        <object>objects\obj_forestIntroDialogue15</object>
       </objects>
     </objects>
   </objects>

@@ -26,9 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///set variables
-countdown = 0
-visible = false
-openingDialogue1Played = false
+countdown = 0;
+visible = false;
+openingDialogue1Played = false;
+depth = -1001;
 </string>
           </argument>
         </arguments>

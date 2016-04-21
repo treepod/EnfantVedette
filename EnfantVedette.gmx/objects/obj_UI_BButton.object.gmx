@@ -58,10 +58,12 @@ and (obj_player.y &lt;= self.y + 150) //Player is within the lower bounds of con
           <argument>
             <kind>1</kind>
             <string>///Trigger Chat
+
 if (self.visible = true) and gamepad_button_check(0,gp_face2)
 {
     global.movementEnabled = false
     obj_meetRonanDialogue1.visible = true
+    audio_play_sound(snd_meetRonanDialogue1, 100, false);
     instance_destroy()
 }
 </string>

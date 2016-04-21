@@ -64,12 +64,11 @@ if global.movementEnabled = true
 }
 
 //Get player's input
-key_right = gamepad_button_check(0, gp_padr);
-key_left = -gamepad_button_check(0, gp_padl);
+gamepad_set_axis_deadzone(0, 0.5)
+move = gamepad_axis_value(0,gp_axislh);
 key_jump = gamepad_button_check(0, gp_face1);
 
 //React to inputs
-move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
 

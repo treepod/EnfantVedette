@@ -24,6 +24,16 @@
         <sound>sound\snd_openingDialogue10</sound>
         <sound>sound\snd_openingDialogue11</sound>
       </sounds>
+      <sounds name="meetRonan">
+        <sound>sound\snd_meetRonanDialogue1</sound>
+        <sound>sound\snd_meetRonanDialogue2</sound>
+        <sound>sound\snd_meetRonanDialogue3</sound>
+        <sound>sound\snd_meetRonanDialogue4</sound>
+        <sound>sound\snd_meetRonanDialogue5</sound>
+        <sound>sound\snd_meetRonanDialogue6</sound>
+        <sound>sound\snd_meetRonanDialogue7</sound>
+        <sound>sound\snd_meetRonanDialogue8</sound>
+      </sounds>
     </sounds>
   </sounds>
   <sprites name="sprites">

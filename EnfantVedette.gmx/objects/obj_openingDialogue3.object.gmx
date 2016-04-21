@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>///set variables
-countdown = 0
-visible = false
+countdown = 0;
+visible = false;
+depth = -1001;
 </string>
           </argument>
         </arguments>

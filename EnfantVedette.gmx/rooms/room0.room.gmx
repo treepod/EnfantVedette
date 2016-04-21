@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="-143" y="936" name="inst_621786A6" locked="0" code="depth = -50;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="3545" y="834" name="inst_621786A6" locked="0" code="depth = -50;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="49" y="1056" name="inst_9369AB11" locked="0" code="image_speed = 0;&#xA;image_index = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2623" y="1056" name="inst_A9B80E99" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2740" y="1056" name="inst_E23DA93E" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -141,10 +141,10 @@
     <instance objName="obj_trunk1" x="3551" y="213" name="inst_2B3DA9E3" locked="0" code="" scaleX="0.970486104488373" scaleY="1.63021314144135" colour="4294967295" rotation="0"/>
     <instance objName="obj_trunk1" x="3784" y="549" name="inst_0C7E094E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trunk1" x="3935" y="666" name="inst_EC6416F4" locked="0" code="" scaleX="0.675909876823425" scaleY="0.644114911556244" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4168" y="466" name="inst_0E754630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4422" y="397" name="inst_B26F9ED7" locked="0" code="" scaleX="1.02999997138977" scaleY="1.28999996185303" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4616" y="595" name="inst_CAFBAB3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trunk1" x="4824" y="557" name="inst_0F690B18" locked="0" code="" scaleX="-0.790000021457672" scaleY="1.00092673301697" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4213" y="551" name="inst_0E754630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4638" y="385" name="inst_B26F9ED7" locked="0" code="" scaleX="1.02999997138977" scaleY="1.28999996185303" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4392" y="620" name="inst_CAFBAB3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trunk1" x="4902" y="539" name="inst_0F690B18" locked="0" code="" scaleX="-0.790000021457672" scaleY="1.00092673301697" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="1461" y="-118" name="inst_CC43E1DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Kayden" x="4907" y="951" name="inst_BFDB7A95" locked="0" code="depth = -11;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="5080" y="1056" name="inst_D3E5DE92" locked="0" code="image_speed = 0;&#xA;image_index = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -248,6 +248,8 @@
     <instance objName="obj_forestIntroDialogue1" x="-753" y="582" name="inst_D1F9C267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_forestIntroDialogue3" x="-743" y="946" name="inst_61F1DAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_forestIntroDialogue7" x="-747" y="766" name="inst_9C0EA299" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gotTheBridgeDialogue11" x="-892" y="-787" name="inst_9A0768D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Music" x="595" y="1385" name="inst_A625981F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>360</xorig>
-  <yorigin>81</yorigin>
+  <yorigin>99</yorigin>
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
@@ -10,7 +10,7 @@
   <bbox_left>0</bbox_left>
   <bbox_right>719</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>161</bbox_bottom>
+  <bbox_bottom>197</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>720</width>
-  <height>162</height>
+  <height>198</height>
   <frames>
     <frame index="0">images\spr_forestIntroDialogue8_0.png</frame>
   </frames>

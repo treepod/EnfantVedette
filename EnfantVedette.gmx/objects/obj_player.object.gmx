@@ -32,6 +32,7 @@ vsp = 0;
 jumpspeed = 7;
 movespeed = 5;
 global.chatEnabled = false;
+depth = -1500
 </string>
           </argument>
         </arguments>

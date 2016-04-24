@@ -94,6 +94,13 @@ if obj_player.x &gt; 2500 and obj_player.x &lt; 5500 and audio_sound_get_gain(sn
 {
     audio_sound_gain(snd_forest, 0.5, 300);
 }
+
+//candyland
+if obj_player.x &gt; 6080 and !audio_is_playing(snd_celebration)
+{
+    audio_play_sound(snd_celebration,0,true);
+    audio_sound_gain(snd_celebration, 0.5, 0);
+}
 </string>
           </argument>
         </arguments>

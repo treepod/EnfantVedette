@@ -55,6 +55,21 @@
         <sound>sound\snd_gotTheBridgeDialogue1</sound>
         <sound>sound\snd_gotTheBridgeDialogue2</sound>
         <sound>sound\snd_gotTheBridgeDialogue3</sound>
+        <sound>sound\snd_gotTheBridgeDialogue4</sound>
+        <sound>sound\snd_gotTheBridgeDialogue5</sound>
+        <sound>sound\snd_gotTheBridgeDialogue6</sound>
+      </sounds>
+      <sounds name="candyland">
+        <sound>sound\snd_candylandDialogue1</sound>
+        <sound>sound\snd_candylandDialogue2</sound>
+        <sound>sound\snd_candylandDialogue3</sound>
+        <sound>sound\snd_candylandDialogue4</sound>
+        <sound>sound\snd_candylandDialogue5</sound>
+        <sound>sound\snd_candylandDialogue6</sound>
+        <sound>sound\snd_candylandDialogue7</sound>
+        <sound>sound\snd_candylandDialogue8</sound>
+        <sound>sound\snd_candylandDialogue10</sound>
+        <sound>sound\snd_candylandDialogue11</sound>
       </sounds>
     </sounds>
   </sounds>

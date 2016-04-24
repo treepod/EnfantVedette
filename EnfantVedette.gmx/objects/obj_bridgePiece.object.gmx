@@ -56,6 +56,7 @@ if global.gotTheBridge == true
     obj_bridgePiece.x = obj_player.x - 100;
     obj_bridgePiece.y = obj_player.y - 100;
     depth = -1000;
+    global.carrying = true;
 }
 </string>
           </argument>
@@ -111,6 +112,8 @@ if global.questForBridge == true
 if obj_player.x &gt;= 5100 and global.gotTheBridge == true
 {
     instance_create(5459, 1021, obj_middleOfBridge);
+    global.bridgeFixed = true;
+    global.carrying = false;
     instance_destroy();
 }
 </string>

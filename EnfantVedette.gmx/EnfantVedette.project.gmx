@@ -138,6 +138,9 @@
       <sprite>sprites\spr_gotTheBridgeDialogue1</sprite>
       <sprite>sprites\spr_gotTheBridgeDialogue2</sprite>
       <sprite>sprites\spr_gotTheBridgeDialogue3</sprite>
+      <sprite>sprites\spr_gotTheBridgeDialogue4</sprite>
+      <sprite>sprites\spr_gotTheBridgeDialogue5</sprite>
+      <sprite>sprites\spr_gotTheBridgeDialogue6</sprite>
     </sprites>
     <sprite>sprites\spr_brokenBridge</sprite>
     <sprite>sprites\spr_bridgePiece</sprite>
@@ -170,51 +173,56 @@
       <object>objects\obj_wall</object>
     </objects>
     <objects name="UI">
-      <objects name="Opening">
-        <object>objects\obj_openingDialogue1</object>
-        <object>objects\obj_openingDialogue2</object>
-        <object>objects\obj_openingDialogue3</object>
-        <object>objects\obj_openingDialogue4</object>
-        <object>objects\obj_openingDialogue5</object>
-        <object>objects\obj_openingDialogue6</object>
-        <object>objects\obj_openingDialogue7</object>
-        <object>objects\obj_openingDialogue8</object>
-        <object>objects\obj_openingDialogue9</object>
-        <object>objects\obj_openingDialogue10</object>
-        <object>objects\obj_openingDialogue11</object>
-      </objects>
-      <objects name="meetingRonan">
-        <object>objects\obj_UI_BButton</object>
-        <object>objects\obj_meetRonanDialogue1</object>
-        <object>objects\obj_meetRonanDialogue2</object>
-        <object>objects\obj_meetRonanDialogue3</object>
-        <object>objects\obj_meetRonanDialogue4</object>
-        <object>objects\obj_meetRonanDialogue5</object>
-        <object>objects\obj_meetRonanDialogue6</object>
-        <object>objects\obj_meetRonanDialogue7</object>
-        <object>objects\obj_meetRonanDialogue8</object>
-      </objects>
-      <objects name="forestIntro">
-        <object>objects\obj_forestIntroDialogue1</object>
-        <object>objects\obj_forestIntroDialogue2</object>
-        <object>objects\obj_forestIntroDialogue3</object>
-        <object>objects\obj_forestIntroDialogue4</object>
-        <object>objects\obj_forestIntroDialogue5</object>
-        <object>objects\obj_forestIntroDialogue6</object>
-        <object>objects\obj_forestIntroDialogue7</object>
-        <object>objects\obj_forestIntroDialogue8</object>
-        <object>objects\obj_forestIntroDialogue9</object>
-        <object>objects\obj_forestIntroDialogue10</object>
-        <object>objects\obj_forestIntroDialogue11</object>
-        <object>objects\obj_forestIntroDialogue12</object>
-        <object>objects\obj_forestIntroDialogue13</object>
-        <object>objects\obj_forestIntroDialogue14</object>
-        <object>objects\obj_forestIntroDialogue15</object>
-      </objects>
-      <objects name="gotTheBridge">
-        <object>objects\obj_gotTheBridgeDialogue11</object>
-        <object>objects\obj_gotTheBridgeDialogue2</object>
-        <object>objects\obj_gotTheBridgeDialogue3</object>
+      <objects name="Dialogue">
+        <objects name="Opening">
+          <object>objects\obj_openingDialogue1</object>
+          <object>objects\obj_openingDialogue2</object>
+          <object>objects\obj_openingDialogue3</object>
+          <object>objects\obj_openingDialogue4</object>
+          <object>objects\obj_openingDialogue5</object>
+          <object>objects\obj_openingDialogue6</object>
+          <object>objects\obj_openingDialogue7</object>
+          <object>objects\obj_openingDialogue8</object>
+          <object>objects\obj_openingDialogue9</object>
+          <object>objects\obj_openingDialogue10</object>
+          <object>objects\obj_openingDialogue11</object>
+        </objects>
+        <objects name="meetingRonan">
+          <object>objects\obj_UI_BButton</object>
+          <object>objects\obj_meetRonanDialogue1</object>
+          <object>objects\obj_meetRonanDialogue2</object>
+          <object>objects\obj_meetRonanDialogue3</object>
+          <object>objects\obj_meetRonanDialogue4</object>
+          <object>objects\obj_meetRonanDialogue5</object>
+          <object>objects\obj_meetRonanDialogue6</object>
+          <object>objects\obj_meetRonanDialogue7</object>
+          <object>objects\obj_meetRonanDialogue8</object>
+        </objects>
+        <objects name="forestIntro">
+          <object>objects\obj_forestIntroDialogue1</object>
+          <object>objects\obj_forestIntroDialogue2</object>
+          <object>objects\obj_forestIntroDialogue3</object>
+          <object>objects\obj_forestIntroDialogue4</object>
+          <object>objects\obj_forestIntroDialogue5</object>
+          <object>objects\obj_forestIntroDialogue6</object>
+          <object>objects\obj_forestIntroDialogue7</object>
+          <object>objects\obj_forestIntroDialogue8</object>
+          <object>objects\obj_forestIntroDialogue9</object>
+          <object>objects\obj_forestIntroDialogue10</object>
+          <object>objects\obj_forestIntroDialogue11</object>
+          <object>objects\obj_forestIntroDialogue12</object>
+          <object>objects\obj_forestIntroDialogue13</object>
+          <object>objects\obj_forestIntroDialogue14</object>
+          <object>objects\obj_forestIntroDialogue15</object>
+        </objects>
+        <objects name="gotTheBridge">
+          <object>objects\obj_gotTheBridgeDialogue1</object>
+          <object>objects\obj_gotTheBridgeDialogue2</object>
+          <object>objects\obj_gotTheBridgeDialogue3</object>
+          <object>objects\obj_gotTheBridgeDialogue4</object>
+          <object>objects\obj_gotTheBridgeDialogue5</object>
+          <object>objects\obj_gotTheBridgeDialogue6</object>
+        </objects>
       </objects>
     </objects>
   </objects>

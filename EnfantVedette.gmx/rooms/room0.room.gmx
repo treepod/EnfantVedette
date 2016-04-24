@@ -247,8 +247,9 @@
     <instance objName="obj_forestIntroDialogue1" x="-753" y="582" name="inst_D1F9C267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_forestIntroDialogue3" x="-743" y="946" name="inst_61F1DAC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_forestIntroDialogue7" x="-747" y="766" name="inst_9C0EA299" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gotTheBridgeDialogue11" x="-892" y="-787" name="inst_9A0768D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gotTheBridgeDialogue1" x="-892" y="-787" name="inst_9A0768D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="595" y="1385" name="inst_A625981F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gotTheBridgeDialogue4" x="-3000" y="180" name="inst_F4A95557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

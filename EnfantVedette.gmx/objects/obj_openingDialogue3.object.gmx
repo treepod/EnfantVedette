@@ -29,6 +29,7 @@
 countdown = 0;
 visible = false;
 depth = -1001;
+flashingB = false;
 </string>
           </argument>
         </arguments>
@@ -62,11 +63,14 @@ if visible and countdown &lt; 60
             obj_player.x = obj_player.x + 5;
         }
     }
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_openingDialogue3) == false
+if visible and audio_is_playing(snd_openingDialogue3) == false
 {
-    obj_openingDialogue4.visible = true;
-    audio_play_sound(snd_openingDialogue4,100,false)
-    instance_destroy();
+    if gamepad_button_check(0,gp_face2)
+    {
+        obj_openingDialogue4.visible = true;
+        audio_play_sound(snd_openingDialogue4,100,false)
+        instance_destroy();
+    }
 }
 </string>
           </argument>

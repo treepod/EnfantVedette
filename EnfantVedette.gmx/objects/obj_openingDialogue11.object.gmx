@@ -29,6 +29,7 @@
 countdown = 0;
 visible = false;
 depth = -1001;
+flashingB = false;
 </string>
           </argument>
         </arguments>

@@ -28,7 +28,7 @@
             <string>///set variables
 countdown = 0;
 visible = false;
-openingDialogue1Played = false;
+global.openingDialogue1Played = false;
 depth = -1001;
 </string>
           </argument>
@@ -57,19 +57,22 @@ if gamepad_button_check(0,gp_face2)
 {
     global.movementEnabled = false;
     obj_openingDialogue1.visible = true;
-    if audio_is_playing(snd_openingDialogue1) == false and openingDialogue1Played == false
+    if audio_is_playing(snd_openingDialogue1) == false and global.openingDialogue1Played == false
     {
         audio_play_sound(snd_openingDialogue1, 100, false);
     }
-    openingDialogue1Played = true;
+    global.openingDialogue1Played = true;
 }
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_openingDialogue1) == false
+if visible and audio_is_playing(snd_openingDialogue1) == false
 {
-    obj_openingDialogue2.visible = true;
-    audio_play_sound(snd_openingDialogue2, 100, false);
-    instance_destroy();
+    if gamepad_button_check(0,gp_face2)
+    {
+        obj_openingDialogue2.visible = true;
+        audio_play_sound(snd_openingDialogue2, 100, false);
+        instance_destroy();
+    }
 }
 </string>
           </argument>

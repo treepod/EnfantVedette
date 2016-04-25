@@ -53,7 +53,7 @@ depth = -1001;
           <argument>
             <kind>1</kind>
             <string>///Input Handling, trigger next
-if obj_player.x &gt;= 6080
+if obj_player.x &gt;= 6400
 {
     global.movementEnabled = false;
     obj_candylandDialogue1.visible = true;

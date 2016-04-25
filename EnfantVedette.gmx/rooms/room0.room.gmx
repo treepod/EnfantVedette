@@ -222,7 +222,7 @@
     <instance objName="obj_bush3" x="4698" y="451" name="inst_0FACEBAE" locked="0" code="depth = -100&#xA;" scaleX="-3.64000010490417" scaleY="3.25675678253174" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="6012" y="4339" name="inst_E977B883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Sun" x="254" y="226" name="inst_1C9C82F7" locked="0" code="depth=10" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_brokenBridge" x="5459" y="1021" name="inst_577CEE21" locked="0" code="depth = -100&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_brokenBridge" x="5459" y="1021" name="inst_577CEE21" locked="0" code="depth = -100&#xA;" scaleX="1.10222220420837" scaleY="1.12999999523163" colour="4294967295" rotation="0"/>
     <instance objName="obj_bridgePiece" x="3961" y="941" name="inst_94415F2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_meetRonanDialogue2" x="-86" y="-458" name="inst_E86FE1C5" locked="0" code="visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_meetRonanDialogue3" x="-148" y="-377" name="inst_E0ED8887" locked="0" code="visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -250,6 +250,7 @@
     <instance objName="obj_gotTheBridgeDialogue1" x="-892" y="-787" name="inst_9A0768D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="595" y="1385" name="inst_A625981F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gotTheBridgeDialogue4" x="-3000" y="180" name="inst_F4A95557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candylandDialogue1" x="-2680" y="-680" name="inst_BD159030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

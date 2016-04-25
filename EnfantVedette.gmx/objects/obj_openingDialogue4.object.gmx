@@ -54,11 +54,7 @@ depth = -1001;
             <string>///Input Handling, trigger next
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and countdown &lt; 30
-    {
-        countdown = countdown + 1;
-    }
-if gamepad_button_check(0,gp_face2) and countdown == 30
+if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_openingDialogue4) == false
 {
     obj_openingDialogue5.visible = true
     audio_play_sound(snd_openingDialogue5,100,false)

@@ -54,7 +54,7 @@ global.gotTheBridge = false
 if global.gotTheBridge == true
 {
     obj_bridgePiece.x = obj_player.x - 100;
-    obj_bridgePiece.y = obj_player.y - 100;
+    obj_bridgePiece.y = obj_player.y;
     depth = -1000;
     global.carrying = true;
 }

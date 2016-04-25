@@ -144,6 +144,19 @@
     </sprites>
     <sprite>sprites\spr_brokenBridge</sprite>
     <sprite>sprites\spr_bridgePiece</sprite>
+    <sprites name="candyland">
+      <sprite>sprites\spr_candylandDialogue1</sprite>
+      <sprite>sprites\spr_candylandDialogue2</sprite>
+      <sprite>sprites\spr_candylandDialogue3</sprite>
+      <sprite>sprites\spr_candylandDialogue4</sprite>
+      <sprite>sprites\spr_candylandDialogue5</sprite>
+      <sprite>sprites\spr_candylandDialogue6</sprite>
+      <sprite>sprites\spr_candylandDialogue7</sprite>
+      <sprite>sprites\spr_candylandDialogue8</sprite>
+      <sprite>sprites\spr_candylandDialogue10</sprite>
+      <sprite>sprites\spr_candylandDialogue11</sprite>
+      <sprite>sprites\spr_candylandDialogue12</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -222,6 +235,19 @@
           <object>objects\obj_gotTheBridgeDialogue4</object>
           <object>objects\obj_gotTheBridgeDialogue5</object>
           <object>objects\obj_gotTheBridgeDialogue6</object>
+        </objects>
+        <objects name="candyland">
+          <object>objects\obj_candylandDialogue1</object>
+          <object>objects\obj_candylandDialogue2</object>
+          <object>objects\obj_candylandDialogue3</object>
+          <object>objects\obj_candylandDialogue4</object>
+          <object>objects\obj_candylandDialogue5</object>
+          <object>objects\obj_candylandDialogue6</object>
+          <object>objects\obj_candylandDialogue7</object>
+          <object>objects\obj_candylandDialogue8</object>
+          <object>objects\obj_candylandDialogue10</object>
+          <object>objects\obj_candylandDialogue11</object>
+          <object>objects\obj_candylandDialogue12</object>
         </objects>
       </objects>
     </objects>

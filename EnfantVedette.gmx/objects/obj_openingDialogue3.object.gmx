@@ -62,7 +62,7 @@ if visible and countdown &lt; 60
             obj_player.x = obj_player.x + 5;
         }
     }
-if gamepad_button_check(0,gp_face2) and countdown == 60
+if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_openingDialogue3) == false
 {
     obj_openingDialogue4.visible = true;
     audio_play_sound(snd_openingDialogue4,100,false)

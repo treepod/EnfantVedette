@@ -188,6 +188,31 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="candylandScenery">
+      <object>objects\obj_candy1</object>
+      <object>objects\obj_candy2</object>
+      <object>objects\obj_candy3</object>
+      <object>objects\obj_candy4</object>
+      <object>objects\obj_candy5</object>
+      <object>objects\obj_candy6</object>
+      <object>objects\obj_candy7</object>
+      <object>objects\obj_candy8</object>
+      <object>objects\obj_candy9</object>
+      <object>objects\obj_candy10</object>
+      <object>objects\obj_candy11</object>
+      <object>objects\obj_candy12</object>
+      <object>objects\obj_candy13</object>
+      <object>objects\obj_candy14</object>
+      <object>objects\obj_candy15</object>
+      <object>objects\obj_candy16</object>
+      <object>objects\obj_candy17</object>
+      <object>objects\obj_candy18</object>
+      <object>objects\obj_candy19</object>
+      <object>objects\obj_candy20</object>
+      <object>objects\obj_candy21</object>
+      <object>objects\obj_candy22</object>
+      <object>objects\obj_candy23</object>
+    </objects>
     <object>objects\obj_Music</object>
     <objects name="Characters">
       <object>objects\obj_player</object>

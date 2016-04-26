@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="-91" y="887" name="inst_621786A6" locked="0" code="depth = -50;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="5947" y="720" name="inst_621786A6" locked="0" code="depth = -50;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="49" y="1056" name="inst_9369AB11" locked="0" code="image_speed = 0;&#xA;image_index = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2623" y="1056" name="inst_A9B80E99" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2740" y="1056" name="inst_E23DA93E" locked="0" code="image_speed = 0;&#xA;image_index = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -252,6 +252,53 @@
     <instance objName="obj_gotTheBridgeDialogue4" x="-3000" y="180" name="inst_F4A95557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candylandDialogue1" x="-2680" y="-680" name="inst_BD159030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_flashingB" x="-122" y="580" name="inst_535548A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy1" x="6197" y="988" name="inst_618D9C05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy1" x="6758" y="965" name="inst_001D4C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy1" x="7474" y="976" name="inst_6FF42BA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy2" x="6325" y="927" name="inst_8A46A701" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy2" x="7092" y="976" name="inst_5209E154" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy2" x="7359" y="900" name="inst_224FCFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy2" x="6855" y="938" name="inst_A5A71CD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy3" x="7450" y="828" name="inst_7B1D027B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="17"/>
+    <instance objName="obj_candy3" x="6247" y="676" name="inst_06B082BA" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy4" x="6619" y="816" name="inst_43C4B030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy4" x="7450" y="820" name="inst_C7B375E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy5" x="6996" y="904" name="inst_69BA398D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy5" x="6496" y="931" name="inst_97D260B6" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="7236" y="986" name="inst_967FBB71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="6650" y="574" name="inst_F8769765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="6997" y="771" name="inst_472CF559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="5908" y="989" name="inst_516796F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="6411" y="991" name="inst_8DE2EC2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="7439" y="581" name="inst_F140B468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy6" x="7346" y="405" name="inst_4D914550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy7" x="6982" y="650" name="inst_7215547B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy8" x="6048" y="973" name="inst_3FD19EE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
+    <instance objName="obj_candy8" x="6680" y="981" name="inst_EB591067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy8" x="7395" y="984" name="inst_2F5E2799" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy9" x="7212" y="935" name="inst_6A2E3AE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
+    <instance objName="obj_candy10" x="6437" y="608" name="inst_10F60271" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy10" x="7493" y="632" name="inst_27C7BCFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy11" x="6293" y="892" name="inst_9067FBC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy11" x="7695" y="894" name="inst_A7E632F2" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy12" x="6903" y="980" name="inst_E61604BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy12" x="6514" y="808" name="inst_6E2A0848" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy13" x="6561" y="967" name="inst_E38565F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy14" x="5978" y="986" name="inst_1553EC12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy14" x="7327" y="986" name="inst_32879288" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy15" x="7217" y="970" name="inst_9EF112E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy15" x="6741" y="671" name="inst_06FB710C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy16" x="7023" y="458" name="inst_3105890F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy16" x="6908" y="660" name="inst_7FC06BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy16" x="7092" y="614" name="inst_CEADF9AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy17" x="6809" y="912" name="inst_47815B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy18" x="7217" y="530" name="inst_868A5229" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy19" x="6626" y="866" name="inst_196A0F59" locked="0" code="depth = 10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy20" x="7549" y="965" name="inst_441865D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy20" x="7013" y="954" name="inst_DC44CF26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy21" x="6552" y="789" name="inst_8BC65533" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy22" x="6281" y="945" name="inst_271E2BEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_candy23" x="7522" y="906" name="inst_94542A22" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -70,6 +70,7 @@
         <sound>sound\snd_candylandDialogue8</sound>
         <sound>sound\snd_candylandDialogue10</sound>
         <sound>sound\snd_candylandDialogue11</sound>
+        <sound>sound\snd_candylandDialogue12</sound>
       </sounds>
     </sounds>
   </sounds>
@@ -94,6 +95,31 @@
       <sprite>sprites\spr_bush1</sprite>
       <sprite>sprites\spr_bush2</sprite>
       <sprite>sprites\spr_bush3</sprite>
+      <sprites name="Candyland">
+        <sprite>sprites\spr_candy1</sprite>
+        <sprite>sprites\spr_candy2</sprite>
+        <sprite>sprites\spr_candy3</sprite>
+        <sprite>sprites\spr_candy4</sprite>
+        <sprite>sprites\spr_candy5</sprite>
+        <sprite>sprites\spr_candy6</sprite>
+        <sprite>sprites\spr_candy7</sprite>
+        <sprite>sprites\spr_candy8</sprite>
+        <sprite>sprites\spr_candy9</sprite>
+        <sprite>sprites\spr_candy10</sprite>
+        <sprite>sprites\spr_candy11</sprite>
+        <sprite>sprites\spr_candy12</sprite>
+        <sprite>sprites\spr_candy13</sprite>
+        <sprite>sprites\spr_candy14</sprite>
+        <sprite>sprites\spr_candy15</sprite>
+        <sprite>sprites\spr_candy16</sprite>
+        <sprite>sprites\spr_candy17</sprite>
+        <sprite>sprites\spr_candy18</sprite>
+        <sprite>sprites\spr_candy19</sprite>
+        <sprite>sprites\spr_candy20</sprite>
+        <sprite>sprites\spr_candy21</sprite>
+        <sprite>sprites\spr_candy22</sprite>
+        <sprite>sprites\spr_candy23</sprite>
+      </sprites>
     </sprites>
     <sprites name="openingDialogue">
       <sprite>sprites\spr_openingDialogue1</sprite>

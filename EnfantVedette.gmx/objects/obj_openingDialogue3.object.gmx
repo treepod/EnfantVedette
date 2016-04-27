@@ -55,14 +55,10 @@ flashingB = false;
             <string>///Input Handling, trigger next
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and countdown &lt; 60
-    {
-        countdown = countdown + 1;
-        if obj_player.x &lt; 240
-        {
-            obj_player.x = obj_player.x + 5;
-        }
-    }
+if visible and obj_player.x &lt; 330
+{
+    obj_player.x = obj_player.x + 5;
+}
 if visible and audio_is_playing(snd_openingDialogue3) == false
 {
     if gamepad_button_check(0,gp_face2)

@@ -57,6 +57,7 @@ x = view_xview[0] + view_wview[0]/2;
 //dialogue finished, press B
 if gamepad_button_check(0,gp_face2) and audio_is_playing(snd_candylandDialogue2) == false
 {
+    view_object[0] = obj_player;
     global.movementEnabled = true;
     instance_destroy();
 }

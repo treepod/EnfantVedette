@@ -54,6 +54,7 @@ depth = -1001;
 x = view_xview[0] + view_wview[0]/2;
 if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_forestIntroDialogue15) == false
 {
+    view_object[0] = obj_player;
     global.questForBridge = true;
     global.movementEnabled = true;
     obj_Kayden.follow = true;

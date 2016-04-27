@@ -29,6 +29,7 @@
 countdown = 0;
 visible = false;
 depth = -1001;
+meetRonanDialogue1Played = false;
 </string>
           </argument>
         </arguments>
@@ -52,6 +53,18 @@ depth = -1001;
           <argument>
             <kind>1</kind>
             <string>///Input Handling, trigger next
+
+///Input Handling, trigger next
+if obj_player.x &gt;= 920
+{
+    global.movementEnabled = false;
+    obj_meetRonanDialogue1.visible = true;
+    if audio_is_playing(snd_meetRonanDialogue1) == false and meetRonanDialogue1Played == false
+    {
+        audio_play_sound(snd_meetRonanDialogue1, 100, false);
+    }
+    meetRonanDialogue1Played = true;
+}
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
 if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_meetRonanDialogue1) == false

@@ -53,6 +53,7 @@ global.gotTheBridge = false
             <string>///Got The Bridge!!!
 if global.gotTheBridge == true
 {
+    image_angle = 0;
     obj_bridgePiece.x = obj_player.x - 100;
     obj_bridgePiece.y = obj_player.y - 100;
     depth = -1000;

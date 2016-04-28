@@ -83,6 +83,11 @@ if (place_meeting(x,y+1,obj_cloud))
     vsp = key_jump * -jumpspeed
 }
 
+if (place_meeting(x,y+1,obj_middleOfBridge))
+{
+    vsp = key_jump * -jumpspeed
+}
+
 //Horizontal Collision Cloud
 if(place_meeting(x+hsp,y,obj_cloud))
 {

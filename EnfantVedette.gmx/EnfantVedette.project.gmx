@@ -119,6 +119,8 @@
         <sprite>sprites\spr_candy21</sprite>
         <sprite>sprites\spr_candy22</sprite>
         <sprite>sprites\spr_candy23</sprite>
+        <sprite>sprites\spr_candy24</sprite>
+        <sprite>sprites\spr_candy25</sprite>
       </sprites>
     </sprites>
     <sprites name="openingDialogue">
@@ -184,6 +186,7 @@
       <sprite>sprites\spr_candylandDialogue11</sprite>
       <sprite>sprites\spr_candylandDialogue12</sprite>
     </sprites>
+    <sprite>sprites\spr_Rory</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -212,12 +215,15 @@
       <object>objects\obj_candy21</object>
       <object>objects\obj_candy22</object>
       <object>objects\obj_candy23</object>
+      <object>objects\obj_candy24</object>
+      <object>objects\obj_candy25</object>
     </objects>
     <object>objects\obj_Music</object>
     <objects name="Characters">
       <object>objects\obj_player</object>
       <object>objects\obj_Kayden</object>
       <object>objects\obj_Ronan</object>
+      <object>objects\obj_Rory</object>
     </objects>
     <objects name="Bridge">
       <object>objects\obj_middleOfBridge</object>

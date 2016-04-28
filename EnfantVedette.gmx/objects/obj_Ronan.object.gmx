@@ -26,12 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>///Init Variables
-grav = 0.2;
+grav = 0.5;
 hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 4;
 follow = 0;
+depth = 100
 </string>
           </argument>
         </arguments>
@@ -67,6 +68,80 @@ if follow == 1
             self.x = self.x - movespeed;
         }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Jump Scare
+
+if follow == 1 and y &lt; obj_player.y
+{
+    if (place_meeting(x,y+1,obj_wall))
+    {
+        vsp = -jumpspeed
+    }
+    
+    if (place_meeting(x,y+1,obj_cloud))
+    {
+        vsp = -jumpspeed
+    }
+    
+    if (place_meeting(x,y+1,obj_middleOfBridge))
+    {
+        vsp = -jumpspeed
+    }
+}
+
+//Effect of gravity
+if (vsp &lt; 10) vsp += grav;
+
+//Vertical Collision Wall
+if(place_meeting(x,y+vsp,obj_wall))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_wall))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
+//Vertical Collision Cloud
+if(place_meeting(x,y+vsp,obj_cloud))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_cloud))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
+//Vertical Collision middleOfBridge
+if(place_meeting(x,y+vsp,obj_middleOfBridge))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_middleOfBridge))
+    {
+        y += sign(vsp);
+    }
+    vsp=0;
+}
+
+y += vsp;
 </string>
           </argument>
         </arguments>

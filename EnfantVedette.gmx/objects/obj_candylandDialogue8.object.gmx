@@ -57,6 +57,7 @@ x = view_xview[0] + view_wview[0]/2;
 //dialogue finished, press B
 if gamepad_button_check(0,gp_face2) and audio_is_playing(snd_candylandDialogue8) == false
 {
+    obj_Rory.follow = 1
     instance_create(0,0, obj_candylandDialogue10);
     audio_play_sound(snd_candylandDialogue10, 100, false);
     instance_destroy();

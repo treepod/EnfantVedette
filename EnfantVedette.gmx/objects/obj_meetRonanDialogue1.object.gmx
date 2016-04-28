@@ -55,7 +55,7 @@ meetRonanDialogue1Played = false;
             <string>///Input Handling, trigger next
 
 ///Input Handling, trigger next
-if obj_player.x &gt;= 920
+if obj_player.x &gt;= 1020
 {
     global.movementEnabled = false;
     obj_meetRonanDialogue1.visible = true;

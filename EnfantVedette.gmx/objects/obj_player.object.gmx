@@ -66,8 +66,21 @@ if global.movementEnabled = true
 
 //Get player's input
 gamepad_set_axis_deadzone(0, 0.5)
-move = gamepad_axis_value(0,gp_axislh);
 key_jump = gamepad_button_check(0, gp_face1);
+if key_jump &gt; 0
+{
+    key_jump = key_jump;
+}else{
+    key_jump = keyboard_check_pressed(vk_space);
+}
+key_right = keyboard_check(vk_right);
+key_left = -keyboard_check(vk_left);
+if key_left + key_right &gt; 0 or key_left + key_right &lt; 0
+{
+    move = key_left + key_right;
+}else{
+    move = gamepad_axis_value(0,gp_axislh);
+}
 
 //React to inputs
 hsp = move * movespeed;
@@ -177,6 +190,34 @@ if global.carrying == true
     movespeed = 4;
 }else{
     movespeed = 5;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Advance dialogue
+advanceDialogue = gamepad_button_check(0,gp_face2)
+if advanceDialogue == true
+{
+    advanceDialogue = advanceDialogue
+}else{
+    advanceDialogue = keyboard_check_pressed(vk_alt);
 }
 </string>
           </argument>

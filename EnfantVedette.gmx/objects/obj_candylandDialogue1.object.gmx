@@ -66,7 +66,7 @@ if obj_player.x &gt;= 6400
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
 
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_candylandDialogue1) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_candylandDialogue1) == false
 {
     instance_create(0,0, obj_candylandDialogue2);
     audio_play_sound(snd_candylandDialogue2, 100, false);

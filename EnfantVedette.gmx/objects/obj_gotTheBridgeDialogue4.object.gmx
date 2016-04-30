@@ -70,7 +70,7 @@ if visible and view_xview[0] &lt; 4900
     view_object[0] = noone
     view_xview[0] = view_xview[0] + 2;
 }
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_gotTheBridgeDialogue4) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_gotTheBridgeDialogue4) == false
 {
     instance_create(0,0, obj_gotTheBridgeDialogue5);
     audio_play_sound(snd_gotTheBridgeDialogue5, 100, false);

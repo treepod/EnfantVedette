@@ -65,7 +65,7 @@ if obj_player.x &gt;= 4820
 }
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_forestIntroDialogue7) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_forestIntroDialogue7) == false
 {
     instance_create(0,0, obj_forestIntroDialogue8);
     audio_play_sound(snd_forestIntroDialogue8, 100, false);

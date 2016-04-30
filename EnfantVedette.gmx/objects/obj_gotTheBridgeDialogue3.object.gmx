@@ -52,7 +52,7 @@ depth = -1001;
             <kind>1</kind>
             <string>y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_gotTheBridgeDialogue3) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_gotTheBridgeDialogue3) == false
 {
     global.movementEnabled = true;
     instance_destroy();

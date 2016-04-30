@@ -59,7 +59,7 @@ if visible and view_xview[0] &lt; 4900
     view_xview[0] = view_xview[0] + 2;
 }
 
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_forestIntroDialogue10) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_forestIntroDialogue10) == false
 {
     instance_create(0,0, obj_forestIntroDialogue11);
     audio_play_sound(snd_forestIntroDialogue11, 100, false);

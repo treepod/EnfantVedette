@@ -53,7 +53,7 @@ depth = -1001;
           <argument>
             <kind>1</kind>
             <string>///Input Handling, trigger next
-if gamepad_button_check(0,gp_face2)
+if obj_player.advanceDialogue == true
 {
     global.movementEnabled = false;
     obj_openingDialogue1.visible = true;
@@ -68,12 +68,12 @@ x = view_xview[0] + view_wview[0]/2;
 
 if visible and audio_is_playing(snd_openingDialogue1) == false
 {
-    if gamepad_button_check(0,gp_face2)
-    {
-        obj_openingDialogue2.visible = true;
-        audio_play_sound(snd_openingDialogue2, 100, false);
-        instance_destroy();
-    }
+    if obj_player.advanceDialogue == true
+        {
+            obj_openingDialogue2.visible = true;
+            audio_play_sound(snd_openingDialogue2, 100, false);
+            instance_destroy();
+        }
 }
 </string>
           </argument>

@@ -55,7 +55,7 @@ y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
 
 //dialogue finished, press B
-if gamepad_button_check(0,gp_face2) and audio_is_playing(snd_candylandDialogue6) == false
+if obj_player.advanceDialogue == true and audio_is_playing(snd_candylandDialogue6) == false
 {
     instance_create(0,0, obj_candylandDialogue7);
     audio_play_sound(snd_candylandDialogue7, 100, false);

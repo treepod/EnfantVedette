@@ -60,7 +60,7 @@ if visible and view_xview[0] &lt; 6000
 }
 
 //dialogue finished, press B
-if gamepad_button_check(0,gp_face2) and audio_is_playing(snd_candylandDialogue7) == false
+if obj_player.advanceDialogue == true and audio_is_playing(snd_candylandDialogue7) == false
 {
     instance_create(0,0, obj_candylandDialogue8);
     audio_play_sound(snd_candylandDialogue8, 100, false);

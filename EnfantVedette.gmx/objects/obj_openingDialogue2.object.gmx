@@ -57,12 +57,12 @@ y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
 if visible and audio_is_playing(snd_openingDialogue2) == false
 {
-    if gamepad_button_check(0,gp_face2)
-    {
-        obj_openingDialogue3.visible = true
-        audio_play_sound(snd_openingDialogue3,100,false)
-        instance_destroy();
-    }
+    if obj_player.advanceDialogue == true
+        {
+            obj_openingDialogue3.visible = true;
+            audio_play_sound(snd_openingDialogue3,100,false);
+            instance_destroy();
+        }
 }
 </string>
           </argument>

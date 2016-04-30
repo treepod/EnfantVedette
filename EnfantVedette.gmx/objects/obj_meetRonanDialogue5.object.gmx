@@ -54,7 +54,7 @@ depth = -1001;
             <string>///Input Handling, trigger next
 y = view_yview[0] + view_hview[0]/4;
 x = view_xview[0] + view_wview[0]/2;
-if visible and gamepad_button_check(0,gp_face2) and audio_is_playing(snd_meetRonanDialogue5) == false
+if visible and obj_player.advanceDialogue == true and audio_is_playing(snd_meetRonanDialogue5) == false
 {
     obj_meetRonanDialogue6.visible = true
     audio_play_sound(snd_meetRonanDialogue6,100,false);
